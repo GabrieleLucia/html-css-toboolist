@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fa;
+  }
+
+  
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 40px;
+    color: #1d1d1d;
+    font-weight: bold;
+  }
+
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .task-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn.primary {
+    background-color: #065184;
+    color: white;
+  }
+  
+  .btn.secondary {
+    background-color: #eaeaea;
+    color: #888;
+  }
+  
+  .task-section {
+    margin-bottom: 28px;
+  }
+  
+  .task-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-bottom: 13px;
+    font-size: 17px;
+    color: #333;
+  }
+  
+  .check {
+    font-weight: bold;
+    margin-right: 9px;
+  }
+  
+  .done {
+    color: #046a51;
+  }
+  
+  .failed {
+    color: #d52929;
+  }
+  
+  .tag {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+  .tag.editorial {
+    background-color: #57c2f8e6;
+  }
+  
+  .tag.q1goals {
+    background-color: #6738a5a1;
+  }
+  
+  .tag.recruiting {
+    background-color: #32caba;
+  }
+  
+  .tag.mobile {
+    background-color: #9a6412;
+  }
+  
+  .tag.website {
+    background-color: #9a1742;
+  }
+  
+  .tag.sales {
+    background-color: #767f2594;
+  }
